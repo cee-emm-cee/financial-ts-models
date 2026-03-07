@@ -1,0 +1,7 @@
+statsmodels
+arch
+yfinance
+pandas
+numpy
+matplotlib
+jupyter
