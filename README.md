@@ -28,10 +28,10 @@ Realized vs conditional volatility comparison.
 - Correlation matrix: realized estimators 0.96-0.99, conditional vol 0.86-0.91 against realized
 - Vol-of-vol analysis: rolling std of realized vol
 
-## Upcoming
-
-- **04_cointegration.ipynb**: Engle-Granger on ETF pairs, foundation for stat arb backtester
-- **Statistical arbitrage backtester**: pairs trading, mean reversion signals, backtest loop
+### 04_cointegration.ipynb (in progress)
+Engle-Granger cointegration test on ETF pairs. Foundation for statistical arbitrage backtester.
+- ETF pair candidates: GLD/GDX, EWA/EWC, XLE/XOP
+- Stationarity testing, spread construction, half-life estimation
 
 ## Data
 
