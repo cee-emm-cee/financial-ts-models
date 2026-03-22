@@ -28,14 +28,19 @@ Realized vs conditional volatility comparison.
 - Correlation matrix: realized estimators 0.96-0.99, conditional vol 0.86-0.91 against realized
 - Vol-of-vol analysis: rolling std of realized vol
 
-### 04_cointegration.ipynb (in progress)
-Engle-Granger cointegration test on ETF pairs. Foundation for statistical arbitrage backtester.
-- ETF pair candidates: GLD/GDX, EWA/EWC, XLE/XOP
-- Stationarity testing, spread construction, half-life estimation
+### 04_cointegration.ipynb
+Engle-Granger cointegration analysis on the GLD/GDX ETF pair (2019-2025).
+- ADF stationarity tests on individual price series
+- OLS spread construction (beta=0.19, R²=0.88)
+- Engle-Granger two-step test: spread non-stationary (p=0.503)
+- Half-life of mean reversion: ~115 days, marginally insignificant (p=0.061)
+- Rolling 252-day cointegration: only ~12% of windows significant at 5%
+- Rolling hedge ratio stability: beta drifts from 0.10 to 0.53
+- Key finding: GLD/GDX cointegration is regime-dependent — a static pairs strategy requires adaptive hedge ratios and a cointegration filter
 
 ## Data
 
-SPY OHLC daily data via yfinance (2019-2025).
+SPY OHLC daily data via yfinance (2019-2025). GLD/GDX daily close prices via yfinance (2019-2025).
 
 ## Tools
 
