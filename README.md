@@ -44,4 +44,4 @@ SPY OHLC daily data via yfinance (2019-2025). GLD/GDX daily close prices via yfi
 
 ## Tools
 
-Python, pandas, numpy, statsmodels, arch, matplotlib
+Python, pandas, numpy, statsmodels, arch, yfinance, matplotlib, jupyter
