@@ -1,6 +1,6 @@
 # financial-ts-models
 
-Time series and volatility modeling applied to financial data. Built as part of MFE application preparation and research groundwork.
+Time series and volatility modeling applied to financial data. Covers ARIMA, GARCH-family models, realized volatility estimators, and cointegration analysis. Built as part of MFE application preparation and research groundwork.
 
 ## Notebooks
 
