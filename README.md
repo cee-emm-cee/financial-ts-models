@@ -40,8 +40,12 @@ Engle-Granger cointegration analysis on the GLD/GDX ETF pair (2019-2025).
 
 ## Data
 
-SPY OHLC daily data via yfinance (2019-2025). GLD/GDX daily close prices via yfinance (2019-2025).
+| Dataset | Source | Period |
+|---------|--------|--------|
+| SPY OHLC daily | yfinance | 2019–2025 |
+| GLD daily close | yfinance | 2019–2025 |
+| GDX daily close | yfinance | 2019–2025 |
 
 ## Tools
 
-Python, pandas, numpy, statsmodels, arch, yfinance, matplotlib, jupyter
+Python, pandas, numpy, statsmodels, arch, yfinance, scipy, matplotlib, jupyter
