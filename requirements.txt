@@ -6,3 +6,5 @@ numpy
 matplotlib
 jupyter
 scipy
+hmmlearn
+scikit-learn
