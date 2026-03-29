@@ -38,6 +38,14 @@ Engle-Granger cointegration analysis on the GLD/GDX ETF pair (2019-2025).
 - Rolling hedge ratio stability: beta drifts from 0.10 to 0.53
 - Key finding: GLD/GDX cointegration is regime-dependent — a static pairs strategy requires adaptive hedge ratios and a cointegration filter
 
+### 05_regime_switching.ipynb
+Hidden Markov Model regime detection on SPY daily returns.
+- Two-state Gaussian HMM: bull (low vol) and bear (high vol) regimes
+- Filtered state probabilities and regime-colored return plots
+- Transition matrix: regime persistence, expected duration, stationary distribution
+- Regime-conditional volatility vs GARCH(1,1) conditional volatility comparison
+- Key finding: HMM captures discrete vol shifts while GARCH tracks smooth clustering — the two are complementary
+
 ## Data
 
 | Dataset | Source | Period |
@@ -48,4 +56,4 @@ Engle-Granger cointegration analysis on the GLD/GDX ETF pair (2019-2025).
 
 ## Tools
 
-Python, pandas, numpy, statsmodels, arch, yfinance, scipy, matplotlib, jupyter
+Python, pandas, numpy, statsmodels, arch, yfinance, scipy, hmmlearn, scikit-learn, matplotlib, jupyter
